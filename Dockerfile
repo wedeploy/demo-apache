@@ -1,3 +1,3 @@
 FROM httpd:2.4
 
-COPY .htaccess /var/www/html/.htaccess
+COPY httpd.conf /usr/local/apache2/conf/httpd.conf
